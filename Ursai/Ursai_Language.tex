@@ -61,7 +61,7 @@
 \tableofcontents
 \pagebreak
 \listoffigures
-\listoftables
+%\listoftables
 \pagebreak
 
 \section{Introduction}
@@ -122,17 +122,20 @@
 		The phonemes \textbf{/u/} and \textbf{/i/} can become \textbf{/w, j/} respectively when adjacent to an \textbf{/a/}.  In these cases, a dipthong is always formed with \textbf{/a/} as the heavier element.
 		\subsubsection{Consonant Breaking}\label{breaking}
 		\par
-		Ursai has a strict consonant cluster rule: only two sounds acting as consonants may occur in sequence.  This means that a sequence like \textbf{[skwa]} is illegal.  No words native to Ursai break this rule internally; however, across word boundaries, clusters or three or four consonants are possible.  When this happens, an epenthetic \textbf{[\epsi]} is placed at the beginning of the second word.  Thus a word sequence of \textbf{/unk harna/} is realized as \textbf{[u\engma k \epsi .sa\flap .na]}.  To note, this was inspired by Arabic\cite{ArabicPhonology}.
+		Ursai has a strict consonant cluster rule: only two sounds acting as consonants may occur in sequence.  This means that a sequence like \textbf{[skwa]} is illegal.  No words native to Ursai break this rule internally; however, across word boundaries, clusters or three or four consonants are possible.  When this happens, an epenthetic \textbf{[\epsi]} is placed at the beginning of the second word.  Thus a word sequence of \textbf{/unk harna/} is realized as \textbf{[u\engma k \epsi .sa\textrhoticity .na]}.  To note, this was inspired by Arabic\cite{ArabicPhonology}.
 		\subsubsection{/k - t/ Realizations}
 		\par
 		Like Hawaiian\cite{HawaiianPhonology}, Ursai features a \textbf{/k - t/} phoneme, namely it covers what is two very different sounds in English.  \textbf{/k/} arises everywhere except when this is adjacent to \textbf{/s/}.
 		\subsubsection{/s - h/ Realizations}
 		\par
 		Ursai features a \textbf{/s - h/} phoneme, where it is \textbf{[s]} always except when word initial before a vowel.  \textbf{/s/} also mutates \textbf{[k]} into \textbf{[t]}.  This was inspired by Ancient Greek\cite{GreekPhonology} in part because it developed initial aspiration from a historic \textbf{/s/} that was weakened.
+		\subsubsection{R-colored Vowels}
+		Ursai's rhotic, \textbf{/r/}, will cause an immediately preceeding vowel to become rhotic, similar to some varieties of Mandarin\cite{Erhua}.  As a result, there are three possible rhotic vowels: \textbf{[a\textrhoticity], [i\textrhoticity],} and \textbf{[u\textrhoticity]}. All of these count as a \textbf{VC} sequence and contribute to clusters that may need to be broken [\ref{breaking}].
+		\subsubsection{Diphthongs}
+		The two semivowels \textbf{[j]} and \textbf{[w]} work to form the diphthongs in Ursai.  The most common ones are the ones that have \textbf{/a/} at the core, though \textbf{/i/} and \textbf{/u/} as a core happen as well.  It should be noted that the semivowels count as a full consonant in clusters and their use can trigger consonant breaking [\ref{breaking}]. 
 	\subsection{Romanization}
 		\par 
 		Unlike many constructed languages, the romanization system for Ursai does not aim to be phonemic, but rather aims for clarity.  Using a phonemic scheme, while possible, forces the readers of the romanized system to first internalize the synchronic sound change rules and phonotactics, and then to correctly decode the sounds from the phonemic system on the fly.  Since Ursai has so few sounds, instead a more phonetic system is used so that the reader may read more naturally at the price of a little lexical transparency.
-		\pagebreak
 		\subsubsection{Common}
 		\begin{wrapfigure}{l}{0.575\textwidth}
   			\begin{tabular}{|l|c|c|l|}
@@ -189,6 +192,9 @@
     
     \bibitem{GreekPhonology} Ancient Greek Phonology, \textit{Wikipedia}, 26 May 2017,
     \url{https://en.wikipedia.org/wiki/Ancient_Greek_phonology#Fricatives}
+
+	\bibitem{Erhua} Erhua, \textit{Wikipedia}, 26 May 2017,
+	\url{https://en.wikipedia.org/wiki/Erhua}
 \end{thebibliography}
 
 \end{document}
