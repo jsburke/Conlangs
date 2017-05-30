@@ -13,6 +13,15 @@
 \newcommand{\minoritem}{\minorindent $\pseudoitem$ }
 \newcommand{\latex}{\LaTeX\space}
 
+%glossing shortcuts
+\newcommand{\nom}{\texttt{NOM}}
+\newcommand{\obl}{\texttt{OBL}}
+\newcommand{\loc}{\texttt{LOC}}
+\newcommand{\anm}{\texttt{ANIM}}
+\newcommand{\inm}{\texttt{INAN}}
+\newcommand{\sing}{\texttt{SG}}
+\newcommand{\plur}{\texttt{PL}}
+
 \usepackage{geometry}
 	\geometry{left=\setmargin, right=\setmargin, top=\setmargin, bottom=\setmargin}
 
@@ -148,7 +157,7 @@
   				\textlangle{}j\textrangle{}        & [j]       & /i/     & Semivowel Only \\
   				\textlangle{}u\textrangle{}        & [u]       & /u/     & Vowel Only \\
   				\textlangle{}w\textrangle{}        & [w]       & /u/     & Semivowel Only \\
-  				\textlangle{}r\textrangle{}        & [\flap]   & /r/     & Consonant Only \\
+  				\textlangle{}r\textrangle{}        & [\flap]   & /r/     & Consonant and R-coloring \\
   				\textlangle{}\s{r}\textrangle{}    & [\rson]   & /r/     & Sonorant Only, Optional \\
 				\textlangle{}n\textrangle{}        & [n]       & /n/     & Consonant Only \\
 				\textlangle{}\nson\textrangle{}    & [\nson]   & /n/     & Sonorant Only, Optional \\ 
@@ -181,6 +190,17 @@
 		\subsubsection{Restricted}
 		\par 
 		Realizing that in certain settings not all the glyphs used above may be available, digraphs may be substituted for the sonorant consonants.  A digraph of \textbf{\textlangle{}oC\textrangle{}} where \textbf{C} is the sonorant is permissible since \textbf{o} is unused and can be considered as a garbage letter.  Furthermore, in such a conext, all accent marking for stress may be ignored, though, if possible, some other means should be availed to try to clarify where it may be since unmarked vowels and sonorants also indicate a certain expected stress pattern.
+	
+\pagebreak		
+\section{Grammar}
+	\subsection{Overview}
+	Ursai is a fairly synthetic language.  Case and number are obligatory on most nouns, verbs are marked to tense-aspect-mood, an so on.  Nouns can be generally split into two categories, animate and inanimate, and there is a split in \nth{3} person actors.  Word order is fairly free, but the preferred sentence structure is \textbf{SOV}.
+	\subsection{Nouns}\label{nouns}
+	Nouns can be split into two collections: animate and inanimate.  Animate nouns are anything deemed able to move or act of their own volition.  So animals, robots, people, et cetera are animate, but rocks, food, plants, and abstract things like theorems or thoughts are inanimate.  Animate nouns can be pluralized while inanimate nouns cannot be.  Finally, any given noun must have one of three cases: Nominative, Oblique, or Locative.
+		\subsubsection{Animate Nouns}\label{animate}
+		\subsubsection{Inanimate Nouns}\label{inanimate}
+	\subsection{Pronouns}\label{pronouns}
+		\subsection{Personal Pronouns}\label{personal}
 	
 \pagebreak
 \begin{thebibliography}{99}
