@@ -13,17 +13,6 @@
 \newcommand{\minoritem}{\minorindent $\pseudoitem$ }
 \newcommand{\latex}{\LaTeX\space}
 
-%glossing shortcuts
-\newcommand{\nom}{\texttt{NOM}}
-\newcommand{\obl}{\texttt{OBL}}
-\newcommand{\loc}{\texttt{LOC}}
-\newcommand{\prox}{\texttt{PROX}}
-\newcommand{\obv}{\texttt{OBV}}
-\newcommand{\anm}{\texttt{ANIM}}
-\newcommand{\inm}{\texttt{INAN}}
-\newcommand{\sing}{\texttt{SG}}
-\newcommand{\plur}{\texttt{PL}}
-
 \usepackage{geometry}
 	\geometry{left=\setmargin, right=\setmargin, top=\setmargin, bottom=\setmargin}
 
@@ -58,27 +47,18 @@
   \raisebox{-\mydepth}{\includegraphics[height=\myheight]{#1}}%
 }	
 
-%\usepackage{tcolorbox}
-%\newtcolorbox{note}[3][boxsep=1pt, left=3pt, right=2pt, top=2pt, bottom=2pt]
-%{
-%  colframe = #2!85,
-%  colback  = #2!15,
-%  coltitle = #2!20!black
-%  #1,
-%}
-
 \begin{document}
 \maketitle
 \tableofcontents
-\pagebreak
-\listoffigures
-%\listoftables
+
 \pagebreak
 
 \section{Introduction}
-	The Ursai Language is an alien language spoken by the Ursai, a far off extraterrestrial race of spacefaring Aliens in a variety of more jocular side projects of the author.  The Aliens, when in proximity of Earth, enjoy abducting cows, convincing humans to build pyramids and other stone structures to make a "World Battery", teaching people how to lay rocks really really good, and other nonsensical activities so that they can have a solid chortle back on the main bridge. All this said, Ursai is a fully fledged, human speakable language, because a corner like this in side projects is a fun diversion and it makes use of it a little more fun and interesting.  
-	\paragraph{Eight Phoneme Challenge}
-	Ursai evolves from a Constructed Language Game called the Eight Phoneme Challenge.  The game restricts participants to making a language with only eight distinct phonemes, which is far less than any natural language on Earth works with.  Any given phoneme may have any number of phonetic realizations; for example, \textbf{/p/} could be \textbf{[f]} word initially, \textbf{[b]} after nasal sounds, and \textbf{[p]} otherwise.  There is no real driving reason why an alien group is restricted in such a way; it was done simply for fun.
+  Ursai is a conlang that originates from a game called the Eighth Phoneme Challenge. The game encourages creativity by means of the restriction in its name. Any eight basic sounds may be used, not including suprasegmental features like stress, tone, or length; it also encourages the development of allophones to attempt to make a richer sound when spoken.
+  \par
+  Continuing from that starting point, Ursai is being intentionaly developed as a misdirected International Auxiliary Language or IAL. In this specific context, I am proposing that specifically it be called a Bad Auxiliary Dialect or BAD. To further this spirit, the guiding principles of Ursai will be unfettered narcissism, avarice, and short attention spans, though these shining viirtues are not the only guideposts. If a community of speakers can somehow be garnered by some miracle, it may stand as a testament to the fact that investing in a community and a fun diversion are a more efficient means of promoting an IAL; however this conlang is based on short attention span so actually asserting such a causality is beyond the scope of this.
+  \par
+  Though Ursai is a BAD, a large motivation behind its development will remain fun. Without fun, Ursai really has no hope.
 
 \pagebreak
 \section{Phonology}
@@ -87,15 +67,15 @@
 		\begin{wrapfigure}{l}{0.65\textwidth}
   			\begin{tabular}{|l|l|l|}
   				\hline
-  				Phoneme             & Ursai IPA & Realization \\ \hline \hline
-  				a - \epsi           & /a/ & \textbf{[a]} except for Consonant Breaking \ref{breaking}\\
-  				i - j               & /i/ & \textbf{[j]} for semivowel realizaion \ref{semivowel}   \\
-  				u - w               & /u/ & \textbf{[w]} for semivowel realizaion \ref{semivowel}   \\
-  				\flap\space - \rson & /r/ & See Sonority \ref{sonority} \\ 
-  				m - n - \engma      & /n/ & \textbf{[n]} default, Homorganic, see \ref{nasal} \\
-  				s - h               & /s/ & \textbf{[h]} word initially in isolation \\
-  				k - t               & /k/ & \textbf{[t]} when adjacent to \textbf{/s/} \\
-  				p                   & /p/ & only as \textbf{[p]} \\ \hline
+  				Phoneme             & Ursai IPA & Realization                                               \\ \hline \hline
+  				a - \epsi           & /a/       & \textbf{[a]} except for Consonant Breaking \ref{breaking} \\
+  				i - j               & /i/       & \textbf{[j]} for semivowel realizaion \ref{semivowel}     \\
+  				u - w               & /u/       & \textbf{[w]} for semivowel realizaion \ref{semivowel}     \\
+  				\flap\space - \rson & /r/       & See Sonority \ref{sonority}                               \\ 
+  				m - n - \engma      & /n/       & \textbf{[n]} default, Homorganic, see \ref{nasal}         \\
+  				s - h               & /s/       & \textbf{[h]} word initially in isolation                  \\
+  				k - t               & /k/       & \textbf{[t]} when adjacent to \textbf{/s/}                \\
+  				p                   & /p/       & only as \textbf{[p]}                                      \\ \hline
   			\end{tabular}
   			\caption{The Eight Phonemes}
 		\end{wrapfigure}
@@ -194,45 +174,52 @@
 		Realizing that in certain settings not all the glyphs used above may be available, digraphs may be substituted for the sonorant consonants.  A digraph of \textbf{\textlangle{}oC\textrangle{}} where \textbf{C} is the sonorant is permissible since \textbf{o} is unused and can be considered as a garbage letter.  Furthermore, in such a conext, all accent marking for stress may be ignored, though, if possible, some other means should be availed to try to clarify where it may be since unmarked vowels and sonorants also indicate a certain expected stress pattern.
 	
 \pagebreak		
-\section{Grammar}
-	\subsection{Overview}
-	Ursai is a fairly synthetic language.  Case and number are obligatory on most nouns, verbs are marked to tense-aspect-mood, an so on.  Nouns can be generally split into two categories, animate and inanimate, and there is a split in \nth{3} person actors.  Word order is fairly free, but the preferred sentence structure is \textbf{SOV}.
-	\subsection{Nouns}\label{nouns}
-	Nouns can be split into two collections: animate and inanimate.  Animate nouns are anything deemed able to move or act of their own volition.  So animals, robots, people, et cetera are animate, but rocks, food, plants, and abstract things like theorems or thoughts are inanimate.  Animate nouns can be pluralized while inanimate nouns cannot be.  Finally, any given noun must have one of three cases: Nominative, Oblique, or Locative.
-		\subsubsection{Animate Nouns}\label{animate}
-		\subsubsection{Inanimate Nouns}\label{inanimate}
-	\subsection{Pronouns}\label{pronouns}
-		\subsection{Personal Pronouns}\label{personal}
-		\begin{wrapfigure}{l}{0.6\textwidth}
-  			\begin{tabular}{|l|c|c|c||c|c|c|} \hline
-  			& \multicolumn{3}{|c||}{Singular} & \multicolumn{3}{|c|}{Plural} \\ \cline{2-4} \cline{5-7}
-  			& \nom & \obl & \loc & \nom & \obl & \loc \\ \hline
-  			\nth{1} & na & ink & hin & kaw & kawk & tsaw \\ \hline 
-  			\nth{2} & u  & un  & hu  & kju & kjuk & sju  \\ \hline
-  			\prox\space\anm & in & -- & sni & ki & kik  & tsi  \\ \hline
-  			\prox\space\inm & sraku & -- & praku & -- & -- & -- \\ \hline
-  			\obv\space\anm  & pjan  & pjank & ipan & kipa & kipak & tsak \\ \hline
-  			\obv\space\inm  & \s{n}     & nak   & nats & -- & -- & -- \\
-  			 \hline
-  			\end{tabular}
-  			\caption{Personal Pronouns}
-		\end{wrapfigure}
-		\par 
-		The table left shows all of the personal pronouns in Ursai.  The most major holes in it are because inanimate nouns do not have plurals, so the pronouns do also.  Next, the non-obviative 3r person pronouns lack Oblique forms since the oblique of the obviative form is used in that case.  It is worthwhile to note that as one descends the table, the role of expected subject becomes less likely.  First persons trump second, second over all thrids, proximate before obviative, and animate before inanimate.  In section \ref{locative} the special uses of the locative are explained, since for persons this goes beyond simply being near a person.
-	
+\section{Morphology and Syntax}
+  Ursai Grammar centers more around its bizarre inspirations like avarice than any other interesting or exotic inspirations. It's probably too exotic as is.
+
+  \subsection{Personal Pronouns}
+    \begin{wrapfigure}{r}{0.4\textwidth}
+      \begin{tabular}{|l|l|}
+        \hline
+        Pronoun    & Referent          \\ \hline \hline
+        na         & Self, me, speaker \\ \hline
+        nu         & Alter, else       \\ \hline
+      \end{tabular}
+      \caption{Sonorance Hierarchy}
+    \end{wrapfigure}
+    \par
+    Ursai features a grand total of two personal pronouns. The first, \textbf{na}, is exclusively the self or ego. It refers to the speaker and the speaker only. Even concepts like English \textit{we} do not fit under it because "it's not all about me". This division and the sounds are take from the original Australian conlang, Damin\cite{Damin}. The alter pronoun, \textbf{nu}, is used for anything that is not the speaker. 
+  \subsection{Nominal Morphology}
+  \subsubsection{Grammatical Number}
+  Every noun and pronoun, with the exception of \textbf{na}, may be marked for when there is more than one being discussed. This is done by using the -\textbf{(i)k} suffix, attached to the noun itself. The vowel portion of it surfaces if the noun ends with any consonant.
+  \par
+  \textit{Examples:}
+  \par
+  \texttt{nuk}  -- dog : \texttt{nukik} -- dogs
+  \par
+  \texttt{pasa} -- cup : \texttt{pasak} -- cups
+  \par
+  Worth noting, for things that normally come in pairs or groups, the default understanding is that number. For a singular instance of it, \textbf{ar} meaning "one" is placed before it. Nouns like this marked for the plural explicitly thus indicate an abundance of them.
+  \par
+  \texttt{unu} -- both eyes : \texttt{ar unu} -- an eye : \texttt{unuk} -- eyes (all over, maybe a spider's eyes)
+  \par
+
 \pagebreak
 \begin{thebibliography}{99}
-	\bibitem{HawaiianPhonology} Hawaiian Phonology, \textit{Wikipedia}, 3 May 2017,
-    \url{https://en.wikipedia.org/wiki/Hawaiian_phonology}
-    
-    \bibitem{ArabicPhonology} Arabic Phonology, \textit{Wikipedia}, 25 May 2017,
-    \url{https://en.wikipedia.org/wiki/Arabic_phonology#Phonotactics}
-    
-    \bibitem{GreekPhonology} Ancient Greek Phonology, \textit{Wikipedia}, 26 May 2017,
-    \url{https://en.wikipedia.org/wiki/Ancient_Greek_phonology#Fricatives}
+  \bibitem{HawaiianPhonology} Hawaiian Phonology, \textit{Wikipedia}, 3 May 2017,
+  \url{https://en.wikipedia.org/wiki/Hawaiian_phonology}
+  
+  \bibitem{ArabicPhonology} Arabic Phonology, \textit{Wikipedia}, 25 May 2017,
+  \url{https://en.wikipedia.org/wiki/Arabic_phonology#Phonotactics}
+  
+  \bibitem{GreekPhonology} Ancient Greek Phonology, \textit{Wikipedia}, 26 May 2017,
+  \url{https://en.wikipedia.org/wiki/Ancient_Greek_phonology#Fricatives}
 
-	\bibitem{Erhua} Erhua, \textit{Wikipedia}, 26 May 2017,
-	\url{https://en.wikipedia.org/wiki/Erhua}
+  \bibitem{Erhua} Erhua, \textit{Wikipedia}, 26 May 2017,
+  \url{https://en.wikipedia.org/wiki/Erhua}
+
+  \bibitem{Damin} Damin, \textit{Wikipedia}, 3 September 2020,
+  \url{https://en.wikipedia.org/wiki/Damin}
 \end{thebibliography}
 
 \end{document}
