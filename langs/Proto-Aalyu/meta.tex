@@ -1,0 +1,63 @@
+% margins and spacing stuff
+\newcommand{\setmargin}{0.8in}
+\newcommand{\vertspace}{\vspace{1.2mm}}
+\newcommand{\horzindent}{\hspace{3mm}}
+
+\usepackage{geometry}
+	\geometry{left=\setmargin, right=\setmargin, top=\setmargin, bottom=\setmargin}
+
+\newcommand{\latex}{\LaTeX\space}
+
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{subfigure}
+\usepackage{nth}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{textcomp}
+
+% IPA and shortenings
+\usepackage{tipa}
+
+% vowel sounds
+\newcommand{\tlonga}{\textipa{a:}}
+\newcommand{\tlongi}{\textipa{i:}}
+\newcommand{\tlongu}{\textipa{u:}}
+
+% consonants
+\newcommand{\ipadental}[1]{\textipa{\|[#1}}
+
+%p
+\newcommand{\dentalt}{\ipadental{t}}
+\newcommand{\retrot}{\textipa{\:t}}
+%c
+%k
+
+%b
+\newcommand{\dentald}{\ipadental{d}}
+\newcommand{\retrod}{\textipa{\:d}}
+\newcommand{\lenisc}{\textipa{\textbardotlessj}}
+%g
+
+%m
+\newcommand{\dentaln}{\ipadental{n}}
+\newcommand{\retron}{\textipa{\:n}}
+\newcommand{\palataln}{\textipa{\textltailn}}
+\newcommand{\engma}{\textipa{N}}
+
+%r
+\newcommand{\dentalr}{\ipadental{r}}
+\newcommand{\retror}{\textipa{\:R}}
+
+%l
+\newcommand{\dentall}{\ipadental{l}}
+\newcommand{\retrol}{\textipa{\:l}}
+\newcommand{\palatall}{\textipa{L}}
+
+%j
+%w
+
+%%%%%%%%%%%%%%
+
+\newcommand{\langname}{Proto-Aalyu\space}
+\newcommand{\phonemic}[1]{\textbackslash #1\textbackslash}
