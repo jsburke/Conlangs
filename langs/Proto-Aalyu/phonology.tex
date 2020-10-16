@@ -35,7 +35,7 @@
   \subsection{Syllable Structure and Timing}
   The syllable structure is simply \texttt{(C)V(T)} where \texttt{T} is one of the homorganic coda consonants. Of these, the nasal \textbf{N} is more common than the other two.\par
   This means that there are four distinct syllable types, where the content affects how long it is:\par
-  \vspace{4mm}
+  \vertspace
   \begin{wrapfigure}{l}{0.4\textwidth}
     \begin{tabular}{|c|c|}
       \hline
@@ -54,3 +54,21 @@
   The consonants probably require a little more effort to internalize. First, as the consonant section notes, the distinction between the fortis and lenis stops is not necessarily one of voicing, but the dividing line between voiced and unvoiced consonants in the Latin alphabet has been leveraged to this effect, which is not to far a cry from Hanyu Pinyin which uses it for aspiration. The retroflex series of consonants follows a simple pattern of appending a <h> to the associated dental sound. This was primarily done because <h> is not used elsewhere in \langname because of the lack of fricatives, so it is fairly clear that a digraph is indicated and syllable boundaries are not ambiguous. The palatal series follows a similar pattern of appending an otherwise unused graph, but is a bit less organized given the nature of the Latin alphabet and how palatal consonants are seemingly rendered in ad hoc manners in it. The graph <y> is appended to either the associated velar or dental consonant, with the exception of \phonemic{j} which is simply rendered as <j>. This latter choice was made so that coda nasals and laterals followed by \phonemic{j} could be easily distinguished from the palatal nasal and lateral without needing to resort to options like apostrophes to indicate syllable boundaries. The <ly> and <ny> digraphs were chosen both for familiarity and because appending to a velar series graph would either be impossible or cumbersome. The fortis and lenis palatal stops, however, append to the velar series. This is mainly done as an aesthetic measure so that <t> and <d> won't appear to be in abundance and in hopes it may be more intuitive than <ty> or <dy> digraphs may be.\par
   The velar nasal, \phonemic{\engma}, is represented as <gg>. This is admittedly quite inelegant and rather non-intuitive. Had <g> not been taken by the lenis velar stop and <ng> not possible at a syllable boundary, both would have been preferred. However, since neither of those two were easy to use and other options like <q> and <\textipa{\~g}> were either less intuitive or more cumbersome to input, <gg> has been selected for clarity and some degree of internal consistency.\par
   Finally, the coda consonants are almost always represented by the dental graph of their associated type, thus <n, l, r> for the nasal, lateral, and rhotic, respectively. An inconsistency with the nasal is tolerated. When it occurs before the labial consonants \phonemic{p, b, m}, it may be written as <m>; however this is not mandatory. This document will strive to use <n> in all these cases.\par
+
+  \subsection{Common Sound Mutations}
+  Very many processes in \langname trigger phonetic changes. Rather than leave those scattered through this document, they will be summarized here. The grammatical rules that cause these patterns will not be explained here, but they should be easily searchable in this document.
+
+  \subsubsection{Initial Consonant Mutation in Partial Reduplication}
+  The Lenis series of consonants mutates to other sounds when partial reduplication is used for the associative plural. To save on time, the table below enumerates this: 
+
+  \vertspace
+  \begin{tabular}{|l|l|l|l|}
+    \hline
+    Consonant   & Mutated    & Base Word        & Reduplicated Example         \\ \hline \hline
+    \textbf{b}  & \textbf{w} & Baani - Bird     & Baawaani - A flock           \\
+    \textbf{d}  & \textbf{l} & Dugya - Mountain & Dulugya  - Mountain Range    \\
+    \textbf{dh} & \textbf{l} & Dhan  - A Fruit  & Dhalan   - A Bunch of Fruits \\
+    \textbf{gy} & \textbf{y} & Gyuul - A Bee    & Gyuuyuul - A Swarm of Bees   \\
+    \textbf{g}  & \textbf{w} & Gara  - Sand     & Gawara   - Desert            \\ \hline
+  \end{tabular}
+
