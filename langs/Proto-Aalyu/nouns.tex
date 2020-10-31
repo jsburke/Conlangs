@@ -67,8 +67,8 @@ There a handful of general use particles and patterns in \langname. With the exc
       \hline
       Prefix                   & Base Meaning & Common Extenstions   \\ \hline \hline
       \prefixtext{\boundbig}   & big          & strong, scary, old   \\
-      \prefixtext{\boundsmall} & small        & generic diminutive  \\
-      \prefixtext{\boundbad}   & bad          & crappy, stupid,    \\
+      \prefixtext{\boundsmall} & small        & generic diminutive   \\
+      \prefixtext{\boundbad}   & bad          & crappy, stupid,      \\
       \prefixtext{\boundneg}   & un-          & without, reversal    \\
       \prefixtext{\boundtrue}  & true         & honest, pure         \\
       \prefixtext{\boundripe}  & ripe         & ready, tasty         \\
@@ -139,38 +139,53 @@ There a handful of general use particles and patterns in \langname. With the exc
   \vertspace
 
   \subsection{Numbers}
+  \langname features a base 10 number system with a subbase of 5. The number for 5 appears to derive be related to the word for hand, and the number for 10 is derived from the word for a "pair." The numbers between 5 and 10 are created using a verbal preposition and \textbf{kalu}, "five." Each of these roughly mean something like "one on five." This compounding mechanism produces a fair deal of phonetic unstability. The general patter beyond \textbf{dalanta} for ten is to simply place the lesser valued portion after it, with the exception of \textbf{aku\tenbase} and \textbf{ithanyutaa dalanta} for eleven and twelve. For the multiples of ten, they are simply formed by prefixing \textbf{dalanta} with the value less than ten, with some phonetic reductions happening in this pattern as well, mostly from the \phonemic{d} reducing under analysis of being fused to the number before it. This all leads to some numbers being quite long. Moving forward, the word for hundred, \textbf{nunuma} seems to be derived from the word \textbf{numar} which means a small army or armed group, seemingly for the numbers desired for such small scale campaigns or defenses that may have been part of the life of the speakers of this proto-language. Given the age of the language, there is no word for zero, terms like "nothing," "none," or "absent" being used instead. It is also difficult to reconstruct numbers that exceed the value of ten thousand; it may have existed and seen usage, but such numbers cannot be convincingly supported. The basic numbers are presented in the table.
+  \par\vertspace
+
   \begin{tabular}{|l|l|l|l|}
     \hline
-    Number & Cardinal                & Ordinal                        & Notes \\ \hline \hline
-    1      & aku                     & kupun                          & Cardinal and Ordinal Disjoint                   \\
-    2      & ithan                   & thipi                          & Cardinal and Ordinal Disjoint                   \\
-    3      & ari                     & ari\ordnum                     &                                                 \\
-    4      & tuju                    & tuju\ordnum                    &                                                 \\
-    5      & kalu                    & kalu\ordnum                    &                                                 \\
-    6      & aku\fivebase            & aku\fivebase\ordnum            &                                                 \\
-    7      & ithanyutaa kalu         & ithanyutaa kalu\ordnum         & Coda N and palatal merge                        \\
-    8      & ari\fivebase            & ari\fivebase\ordnum            &                                                 \\
-    9      & tu\fivebase             & tu\fivebase\ordnum             & \phonemic{juju} reduced to \phonemic{ju}        \\
-    10     & dalanta                 & dalanta\ordnum                 & From the collective of \textbf{dantar} - a pair \\
-    11     & aku\tenbase             & aku\tenbase\ordnum             & Imitates the five base numerals                 \\
-    12     & ithanyutaa dalanta      & ithanyutaa dalanta\ordnum      & Imitates the five base numerals                 \\
-    13     & dalantari               & dalantari\ordnum               & Slightly contracted "ten - three"               \\
-    14     & dalanta tuju            & dalanta tuju\ordnum            &                                                 \\
-    15     & dalanta kalu            & dalanta kalu\ordnum            &                                                 \\
-    16     & dalanta aku\fivebase    & dalanta aku\fivebase\ordnum    &                                                 \\
-    17     & dalanta ithanyutaa kalu & dalanta ithanyutaa kalu\ordnum &                                                 \\
-    18     & dalanta ari\fivebase    & dalanta ari\fivebase\ordnum    &                                                 \\
-    19     & dalanta tu\fivebase     & dalanta tu\fivebase\ordnum     &                                                 \\
-    20     & ithan dalanta           & ithan dalanta\ordnum           &                                                 \\
-    30     & ari dalanta             & ari dalanta\ordnum             &                                                 \\
-    40     & tuju dalanta            & tuju dalanta\ordnum            &                                                 \\
-    50     & kalulanta               & kalulanta\ordnum               & reduction of sequential /phonemic{l} syllables  \\
-    60     & aku\fivebase lanta      & aku\fivebase lanta\ordnum      & \textbf{kalulanta} continues till hundred       \\
-    70     & ithanyutaa kalulanta    & ithanyutaa kalulanta\ordnum    &                                                 \\
-    80     & ari\fivebase lanta      & ari\fivebase lanta\ordnum      &                                                 \\
-    90     & tu\fivebase lanta       & tu\fivebase lanta\ordnum       & \phonemic{juju} reduces a syllable again        \\
-    100    & nunuma                  & nunuma\ordnum                  & Related to "numar" -- "small army"              \\ \hline
+    Number & Cardinal                      & Ordinal                              & Notes \\ \hline \hline
+    1      & aku                           & kupun                                & Cardinal and Ordinal Disjoint                   \\
+    2      & ithan                         & thipi                                & Cardinal and Ordinal Disjoint                   \\
+    3      & ari                           & ari\ordnum                           &                                                 \\
+    4      & tuju                          & tuju\ordnum                          &                                                 \\
+    5      & kalu                          & kalu\ordnum                          &                                                 \\
+    6      & aku\fivebase                  & aku\fivebase\ordnum                  &                                                 \\
+    7      & ithanyutaa kalu               & ithanyutaa kalu\ordnum               & Coda N and palatal merge                        \\
+    8      & ari\fivebase                  & ari\fivebase\ordnum                  &                                                 \\
+    9      & tu\fivebase                   & tu\fivebase\ordnum                   & \phonemic{juju} reduced to \phonemic{ju}        \\
+    10     & dalanta                       & dalanta\ordnum                       & From the collective of \textbf{dantar} - a pair \\
+    11     & aku\tenbase                   & aku\tenbase\ordnum                   & Imitates the five base numerals                 \\
+    12     & ithanyutaa dalanta            & ithanyutaa dalanta\ordnum            & Imitates the five base numerals                 \\
+    13     & dalantari                     & dalantari\ordnum                     & Slightly contracted "ten - three"               \\
+    14     & dalanta tuju                  & dalanta tuju\ordnum                  &                                                 \\
+    15     & dalanta kalu                  & dalanta kalu\ordnum                  &                                                 \\
+    16     & dalanta aku\fivebase          & dalanta aku\fivebase\ordnum          &                                                 \\
+    17     & dalanta ithanyutaa kalu       & dalanta ithanyutaa kalu\ordnum       &                                                 \\
+    18     & dalanta ari\fivebase          & dalanta ari\fivebase\ordnum          &                                                 \\
+    19     & dalanta tu\fivebase           & dalanta tu\fivebase\ordnum           &                                                 \\
+    20     & ithan dalanta                 & ithan dalanta\ordnum                 &                                                 \\
+    21     & ithan dalanta aku             & ithan dalanta kupun                  & Return of disjoint Ordinal \textbf{kupun}       \\
+    22     & ithan dalanta ithan           & ithan dalanta thipi                  & Return of disjoint Ordinal \textbf{thipi}       \\
+    ...    &                               &                                      &                                                 \\
+    25     & ithan dalanta kalu            & ithan dalanta kalu\ordnum            &                                                 \\
+    ...    &                               &                                      &                                                 \\
+    28     & ithan dalanta ari\fivebase    & ithan dalanta ari\fivebase\ordnum    &                                                 \\
+    29     & ithan dalanta tu\fivebase     & ithan dalanta tu\fivebase\ordnum     &                                                 \\
+    30     & ari dalanta                   & ari dalanta\ordnum                   &                                                 \\
+    40     & tuju dalanta                  & tuju dalanta\ordnum                  &                                                 \\
+    50     & kalulanta                     & kalulanta\ordnum                     & reduction of sequential \phonemic{l} syllables  \\
+    60     & aku\fivebase lanta            & aku\fivebase lanta\ordnum            & \textbf{kalulanta} continues till hundred       \\
+    70     & ithanyutaa kalulanta          & ithanyutaa kalulanta\ordnum          &                                                 \\
+    80     & ari\fivebase lanta            & ari\fivebase lanta\ordnum            &                                                 \\
+    90     & tu\fivebase lanta             & tu\fivebase lanta\ordnum             & \phonemic{juju} reduces a syllable again        \\
+    99     & tu\fivebase lanta tu\fivebase & tu\fivebase lanta tu\fivebase\ordnum & \phonemic{juju} reduces a syllable again        \\
+    100    & nunuma                        & nunuma\ordnum                        & Related to "numar" -- "small army"              \\ 
+    200    & ithan nunuma                  & ithan nunuma\ordnum                  &                                                 \\ 
+    300    & ari nunuma                    & ari nunuma\ordnum                    &                                                 \\ 
+    400    & tuju nunuma                   & tuju nunuma\ordnum                   &                                                 \\ 
+    500    & kalu nunuma                   & kalu nunuma\ordnum                   &                                                 \\ 
+    1000   & \thousand                     & \thousand\ordnum                     & "big" prefix on reduced hundred                 \\ 
+    8000   & ari\fivebase\space\thousand   & ari\fivebase\space\thousand\ordnum   &                                                 \\ \hline
   \end{tabular}
-  \par\vertspace
-  \langname features a base 10 number system with a subbase of 5. The number for 5 appears to derive be related to the word for hand, and the number for 10 is derived from the word for a "pair." The numbers between 5 and 10 are created using a verbal preposition and \textbf{kalu}, "five." Each of these roughly mean something like "one on five." This compounding mechanism produces a fair deal of phonetic unstability. The general patter beyond \textbf{dalanta} for ten is to simply place the lesser valued portion after it, with the exception of \textbf{aku\tenbase} and \textbf{ithanyutaa dalanta} for eleven and twelve. For the multiples of ten, they are simply formed by prefixing \textbf{dalanta} with the value less than ten, with some phonetic reductions happening in this pattern as well, mostly from the \phonemic{d} reducing under analysis of being fused to the number before it. This all leads to some numbers being quite long. Moving forward, the word for hundred, \textbf{nunuma} seems to be derived from the word \textbf{numar} which means a small army or armed group, seemingly for the numbers desired for such small scale campaigns or defenses that may have been part of the life of the speakers of this proto-language. Given the age of the language, there is no word for zero, terms like "nothing," "none," or "absent" being used instead. It is also difficult to reconstruct numbers that exceed the value of ten thousand; it may have existed and seen usage, but such numbers cannot be convincingly supported. The basic numbers are presented in the table.
   
