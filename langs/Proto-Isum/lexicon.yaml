@@ -1,0 +1,69 @@
+exi:
+  - like:
+    - pos: verb
+    - further: appeal
+    - example: ["exi diiwyk raamin", "I like food"]
+    - notes: "Quirky Subject: Dative case"
+thi:
+  - under:
+    - pos: verb, tr. sta.
+    - example: ["thuu dii saktumin", "I'm under the sky"]
+    - notes: Common prepositional use for under or below
+saktu:
+  - sky:
+    - pos: noun
+    - example: ["Qhiiqimu saktunye", "The birds of the sky"]
+chiici:
+  - bird:
+    - pos: noun
+    - notes: "Basic word, possibly from onomatopoeia"
+gwiim:
+  - house:
+    - pos: noun
+    - further: "any permanent dwelling place"
+asa:
+  - tree:
+    - pos: noun
+etu:
+  = father:
+    - pos: noun
+ymaa:
+  - mother:
+    - pos: noun
+kajot:
+  - big:
+    - pos: verb, in. sta.
+    -example: ["kajot dii", "I'm big"]
+thaarot:
+  - good:
+    -pos: verb, in. sta.
+    -example: ["exi awawyk thaarot qhiiqimumin", "You like good birds"]
+cyri:
+  - see:
+    - pos: verb, trans. delim.
+    - examples:
+    - notes: "No implication of volition"
+ybi:
+  - to be near:
+    pos: verb, tr. sta.
+    example: ["Ybi maa etumin", "Mother is near father"]
+    notes: common prepositional use for near
+gaaru:
+  - pond:
+    - pos: noun
+byna:
+  - milk:
+    - pos: noun
+muuji:
+  - cow:
+    - pos: noun
+bulot:
+  - to walk:
+    - pos: verb, in. delim.
+can:
+  = rock:
+    - pos: noun
+sulaa:
+  - person:
+    - pos: noun
+lyechim:

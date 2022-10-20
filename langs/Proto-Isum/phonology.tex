@@ -1,44 +1,88 @@
 \section{Phonology}
-The present reconstruction of \langname presents a phonology with a rather balanced and fairly full set of phonemes. There are few gaps within its patterns, and points that might otherwise seem unusual seem to fit some kind of internal pattern. The realizations in the daughter languages is quite varied. In the documentation provided below, the phonemic elements are presented plainly while the Romanization used widely is in angle brackets. 
-  \subsection{Vowels}
-     \begin{wrapfigure}{r}{0.55\textwidth}
-       \begin{tabular}{|l|l|l|l|}
-         \hline
-                 & Front              & Central            & Back               \\ \hline \hline
-         High    & i, \tlongi <i, ii> & \tshorty* <y>      & u, \tlongu <u, uu> \\ \hline
-         Mid     & \tshorte <e>       &                    & \tshorto <o>       \\ \hline
-         Low     &                    & a, \tlonga <a, aa> &                    \\ \hline
-       \end{tabular}
-     \end{wrapfigure}
-     \langname features at least 5 vowel qualities with three at two lengths with no quality differences between long and short. It is notable that in multisyllabic words, at most one long vowel is present; unsurprisingly it is always realized as the stressed syllable. Long vowels seem to have been more resistant to synchronic changes. Some scholars contest the inclusion of /\tshorty/ in the reconstruction, but we believe that this inclusion is sensible based on reflexes found in the \branchremote\space languages. When they are not considered in this equation, its exclusion seems sensible, but certain oddities in how the \branchremote\space presents vowel reflexes in stressed syllables demands its inclusion, in our opinion, for the most thorough analysis.\par
-  \subsection{Consonants}
-    \begin{center}
-    \begin{tabular}{|l|l|l|l|l|}
+  The phonology of the protolanguage will be presented in a two parts. First is the full, canonical phonology that the whole language fits under and is needed for understanding the whole of this language description. In particular, the romanization system is tied to this phonology. The second smaller one, intended as a sort of paleophonology within the context of the protolanguage, is a constrained subset of the canonical phonology that is used to generate particular words, especially the classifiers and words deemed more archaic in the language. There is no Romanization provided or really needed for this paleophonology subset since the main system will suffice. Effectively, this constrained set is a tool meant to add some depth into elements of \langname itself without requiring the work of a Pre-Protolanguage, which seems cumbersome and would only bear diminishing returns for the desire of naturalism. The canonical phonology is unsurprisingly larger and more fleshed out; the paleophonology will present more like something expected of a naming language.\par
+  The phonology of \langname is fairly large, with 27 distinct consonants and 6 vowels, half of which have long variants. Gaps were included in some places in the consotnant space based on feel, and some sounds were added with the knowledge that they would be used fairly rarely. As mentioned in the introduction, there was not a strong inspiration from any particular natural language; something interesting to experiment with was the main intent.\par 
+  As a note to the reader, the following sections that enumerate the phonemes in table form also provide the Romanization of each in angle brackets next to it in this fashion: \tpall <ly>. The Romanization will be discussed in its own section as well, but its design was mainly motivated by ease of reading while avoiding diacritics.\par
+
+\subsection{Vowels}
+  \begin{wrapfigure}{r}{0.55\textwidth}
+    \begin{tabular}{|l|l|l|l|}
       \hline
-                    & Labial      & Alveolar                &  Palatal            & Velar - Uvular                  \\ \hline \hline
-        Plain       & p <p>       & t, \tplainc <t, c>      &  \tplainq <q>       & k, \tplainkw  <k, kw>           \\ \hline 
-        Voiced      & b <b>       & d, \tvoicedz <d, z>     &                     & g, \tvoicedgw <g, gw>           \\ \hline 
-        Aspirate    & \taspp <ph> & \taspt, \taspc <th, ch> &  \taspq <qh>        & \taspk, \taspkw <kh, khw>       \\ \hline 
-        Nasal       & m <m>       & n <n>                   &  \tpaln <ny>        &                                 \\ \hline 
-        Fricative   &             & s <s>                   &  \tshlig <x>        & x, \tplainxw <h, hw>            \\ \hline 
-        Approximant &             & l <l>                   &  j, \tpall <j, ly>  & w, \tbackr, \tbackrw <w, r, rw> \\ \hline
+              & Front              & Central            & Back               \\ \hline \hline
+      High    & i, \tlongi <i, ii> & \tshorty* <y>      & u, \tlongu <u, uu> \\ \hline
+      Mid     & \tshorte <e>       &                    & \tshorto <o>       \\ \hline
+      Low     &                    & a, \tlonga <a, aa> &                    \\ \hline
     \end{tabular}
-    \end{center}
-  \par\par
-  \langname is reconstructred as having a three types of stops at four points of articulation using two methods of release (full stop and affricate). The velar and uvular consonants present with both rounded and unrounded versions. The single rhotic /\tbackr/ follows this pattern as well. Notably not present in this reconstruction is both /f/ and /\textipa{\t{dZ}}/, which seem to be holes in the otherwise strongly filled consonant space. Some scholars squabble over the inclusion of /\tpall/ prefering instead to split it among /l/, /j/, and /\tpaln/ under various conditions. We have chosen against that since we feel it distills into daughter languages neatly despite being a comparatively rare phoneme both within the lexicon and also within expected discourse usage.\par
-  \subsection{Syllable Structre}
-  Reconstructions consistently agree on the syllable structure being \texttt{(C)V(m/n/p/t/k)} where coda stops were unreleased. The nucleus may be either short or long, but not a diphthong. Various aspects of this structure and how it interacts with perceived stress and prosody led to the wide varying realizations found in daughter languages.\par
-  \subsection{Allophony}
+  \end{wrapfigure}
+  There are six qualities balanced across the vowel space. Three of them, \phonemic{a, i, u}, come in long and short variants, while the other three, \phonemic{\tshorte, \tshorto, \tshorty}, are present only as short vowels. As noted, the Romanization of the long vowels is represented by simply doubling the letter.\par
+
+\subsection{Consonants}
+  \begin{center}
+  \begin{tabular}{|l|l|l|l|l|}
+    \hline
+                  & Labial      & Alveolar    &  Postalveolar - Palatal & Velar - Uvular                  \\ \hline \hline
+      Plain       & p <p>       & t <t>       &  \tplainq <c>           & k, \tplainkw  <k, kw>           \\ \hline 
+      Voiced      & b <b>       & d <d>       &                         & g, \tvoicedgw <g, gw>           \\ \hline 
+      Aspirate    & \taspp <ph> & \taspt <th> &  \taspq <ch>            & \taspk, \taspkw <kh, khw>       \\ \hline 
+      Nasal       & m <m>       & n <n>       &  \tpaln <ny>            &                                 \\ \hline 
+      Fricative   &             & s <s>       &  \tshlig <x>            & x, \tplainxw <h, hw>            \\ \hline 
+      Approximant &             & l <l>       &  j, \tpall <j, ly>      & w, \tbackr, \tbackrw <w, r, rw> \\ \hline
+  \end{tabular}
+  \end{center}
+\par\vertspace
+  There are 27 consonants organized across four conceptual, but six real, places of articulation in six manners of articulation. The reason for organizing them in this way is that the consonants further back in the mouth, including the rhotic, come in both plain and labialized forms while the postalveolar - palatal series was done so reflecting a weak influence of palatalizing. Of note, there are some gaps with \phonemic{f} and \phonemic{\textipa{\t{dZ}}} missing, along with the velar nasal not being phonemic. Furthermore, \phonemic{\tpall} is very rare with only a few occurences in the whole lexicon.\par
+  Within the Romanization scheme, using familiar or letters with some intuition provided the baseline, such as using <c> for \phonemic{\tplainq}. Aspiration is done by simply appending an <h> and labialization with <w>. Palatal consonants are a bit more of a mix, with \phonemic{\tshlig} as <x> following precedent from Pinyin and some Mesoamerican languages, but the nasal and lateral appending a <y> as a nod to English, with \phonemic{j} simply as <j> to avoid confusion at syllable boundaries where <nj> is possible and needs to be distinct from <ny> directly after a vowel. This does allow for romanized sequences like <nyy> representing \phonemic{\tpaln\tshorty} which are a little unpleasant to look at but clear to read after exposure.\par
+
+\subsection{Syllable Structure and Phonaesthetics}
+  The syllable structure is fairly simple being \texttt{(C)V(m/n/p/t/k)}. Coda stops are unreleased, and the nucleus may be either short or long, but diphhongs do not occur and vowel-vowel sequences are avoided. Beyond this rather simple syllable structure, many consonant clusters are not allowed in \langname. Some are fully absent in the language, while others, that may arise from affixation, change in sound when they arise.
+\subsubsection{High Level Sound Trends}
+  Despite the rather large phonemic inventory, only nouns and verbs present the whole host of possible sounds, and even within those lexical categories there are still some loose restrictions. Normally, a given root or semantic stem will have at most one long vowel, and there is a strong preference for it to be in the first syllable of the stem. If two roots are with long vowels are joined, the long vowels do not degrade. Outside of nouns and verbs, the aspirate series of consonants is not present and labialized back sounds are very very rare. Rhotic consonants never appear at the start of a word, and, as thus, the rhotic sounds are never the first sound in a noun, verb, or any kind of prefix.\par
+\subsubsection{Consonant Clusters and Realizations}
+While the basic syllable structure allows for any of the coda consonants to theoretically appear before any consonant, many clusters are unattested, and many more are realized as different sounds when the cluster occurs, often as a result of grammatical or derivational suffixes. In the table below, each possible cluster as a coda consonant per column before an initial per row. Clusters that are allowed and attested without any unexpected changes are marked with a \checkmark. Clusters that surface with some sound change will be noted with the sound in IPA. Finally, disallowed clusters will have their spots left blank.\par\vertspace
+\begin{tabular}{|l|l|l|l|l|l|}
+  \hline
+  Onset | Coda & m           & n           & p  & t           & k           \\ \hline \hline
+  p            & \checkmark  & mp          & p  & \checkmark  & \checkmark  \\ \hline
+  t            & \checkmark  & \checkmark  & p  & t           & \checkmark  \\ \hline
+  c            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  k            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  kw           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  b            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  d            & \checkmark  & mp          & p  & \checkmark  & \checkmark  \\ \hline
+  g            & \checkmark  & \checkmark  & p  & t           & \checkmark  \\ \hline
+  gw           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  ph           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  th           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  ch           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  kh           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  khw          & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  m            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  n            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  ny           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  s            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  x            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  h            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  hw           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  l            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  j            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  ly           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  w            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  r            & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+  rw           & \checkmark  & mp  & p  & \checkmark  & \checkmark  \\ \hline
+\end{tabular}
+
+
+\subsection{Allophony}
   Every language has some variety in how underlying phonemes are realized when placed in different environments, and \langname was surely no different from that. Some of the synchronic changes that are expected to have existed are evidenced in some way in daughter languages. Please note, this is restricted to expected changes triggered by environment by the speakers of \langname and not changes witnessed in its various daughter languages.\par
-    \subsubsection{Velarizing /n/}
-    /n/ almost definitely presented as [\textipa{N}] before velar stops and fricatives and at the end of words. However, change to /n/ seems unlikely before the uvular rhotics.
-    \subsubsection{Intervocalic /w/}
-    /w/ became [v] in all intervocalic word medial positions. No daughter languages present any convincing evidence that it remained a semivowel in this position.
-    \subsubsection{Intervocalic Fortified /j/}
-    Based on reflexes in most daughter languages, it seems highly likely that when /j/ followed a stressed vowel in word medial intervocalic positions, it was realized as [zj].
-    \subsubsection{Interruptive Glottal Stop}
-    While not present as a distinct phoneme, it is expected that the glottal stop, [\textipa{P}], was inserted to break vowel-vowel sequences across word boundaries.
-  \subsection{Final Notes on Romanization}
+  \subsubsection{Velarizing /n/}
+  /n/ almost definitely presented as [\textipa{N}] before velar stops and fricatives and at the end of words. However, change to /n/ seems unlikely before the uvular rhotics.
+  \subsubsection{Intervocalic /w/}
+  /w/ became [v] in all intervocalic word medial positions. No daughter languages present any convincing evidence that it remained a semivowel in this position.
+  \subsubsection{Intervocalic Fortified /j/}
+  Based on reflexes in most daughter languages, it seems highly likely that when /j/ followed a stressed vowel in word medial intervocalic positions, it was realized as [zj].
+  \subsubsection{Interruptive Glottal Stop}
+  While not present as a distinct phoneme, it is expected that the glottal stop, [\textipa{P}], was inserted to break vowel-vowel sequences across word boundaries.
+
+\subsection{Final Notes on Romanization}
   The above sections enumerate everything that is needed for the Romanization; however some digraphs like <kh> and even <khw> could be confusing without disambiiguation. Intervocalic aspirate stops could be confused with clusters of coda stops and the velar fricative. For this reason, when [kx] or other clusters like this occur, the coda stop will be separated with and apostrophe <'>. Thus <akha> is [a\taspk a] but <ak'ha> is [akxa].
   \subsection{Stress}
   \langname did not make use of contrastive stress, that is stress patterns to distinguish morphemes, but for multisyllabic words in particular stress was present. Many frequently used syntactic particles that were not affixed to main words, and probably many common use words, often acted as unstressed when juxtaposed with more lexically prominent words. Stress within a word was governed seemingly by a few simple rules:\par
@@ -47,7 +91,7 @@ The present reconstruction of \langname presents a phonology with a rather balan
     \item Long vowels in multisyllabic words are always stressed
     \item If there are no long vowels, the syllable closeset to the end of a word before a consonant cluster not including fricatives or approximnats had stress
     \begin{itemize}
-      \item\textbf{[Example]}: \texttt{saktu} will have stress on the first syllable}
+      \item\textbf{[Example]}: \texttt{saktu} will have stress on the first syllable
     \end{itemize}
     \item If there are no clusters, and the final syllable is open, stress is penultimate
     \begin{itemize}
@@ -60,3 +104,6 @@ The present reconstruction of \langname presents a phonology with a rather balan
       \item\textbf{[Example]}: \texttt{iixyt} has stress on the penultimate syllable
     \end{itemize}
   \end{itemize}
+
+\subsection{Paleophonology}
+
